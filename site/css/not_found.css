@@ -1,0 +1,69 @@
+.bonhomme {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.logo {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.search {
+    width: 100%;
+    margin-top: -50px;
+    position: relative;
+    display: flex;
+}
+
+.search2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid darkblue;
+    border-right: none;
+    padding: 20px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus{
+    color: darkblue;
+}
+
+.searchButton {
+    width: 30%;
+    border: 1px solid darkblue;
+    background: darkblue;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap{
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.soustext {
+    text-align: center;
+    margin: auto;
+    font-family: Comfortaa;
+}
+
+button:hover {
+    background-color: gold;
+    color: black;
+}

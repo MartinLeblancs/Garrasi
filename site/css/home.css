@@ -1,0 +1,78 @@
+h3, h2 {
+    text-align: center;
+    margin: auto;
+    font-family: Comfortaa;
+}
+
+.menu {
+    text-align: center;
+    font-size: 20px;
+}
+.logo {
+    margin-top: -80px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.soustitre1 {
+    margin-top: -100px;
+}
+
+.search {
+    width: 100%;
+    margin-top: -50px;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid darkblue;
+    border-right: none;
+    padding: 20px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus{
+    color: darkblue;
+}
+
+.searchButton {
+    width: 30%;
+    border: 1px solid darkblue;
+    background: darkblue;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.soustext {
+    text-align: center;
+    margin: auto;
+    font-family: Comfortaa;
+}
+
+button:hover {
+    background-color: gold;
+    color: black;
+}
+
+.welcome_user
+{
+    text-align: right;
+}

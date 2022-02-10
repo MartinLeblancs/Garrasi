@@ -1,0 +1,48 @@
+body{
+    background: #CCEEFF;
+}
+
+#box{
+    width:400px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #FFFFFF;
+    box-shadow: 7px 7px 0 #8a8685;
+}
+
+input[type=text], input[type=password], input[type=confirmpass], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #CCEEFF;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #CCEEFF;
+}
+
+p
+{
+    text-align: center;
+    color: red;
+    margin-left: 20px;
+}

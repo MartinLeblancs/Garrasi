@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+.sendmessage {
+    margin-left: 20px;
+    font-size: 20px;
+    width: 70%;
+    float: right;
+}
+
+.pseudo {
+    color: #2d5af6;
+    font-family: "Arial Black";
+    font-size: 21px;
+    text-shadow: #d9d0d0 0.1em 0.1em 0.1em;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.txt {
+    font-family: "Arial Black";
+    color: whitesmoke;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #2d5af6;
+    border-radius: 10px;
+
+}
+
+p#chat {
+    margin-left: 20px;
+}
+
+h1#title {
+    text-align: center;
+    font-size: 70px;
+    color: #2d5af6;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+textarea {
+    margin-left: 70px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+input[type=submit] {
+    margin-left: 630px;
+    background-color: #2d5af6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: gold;
+    color: black;
+}
+
+.msg {
+    font-family: "Arial Black";
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 1px;
+    text-decoration: underline;
+}
+
+.psd {
+    font-family: "Arial Black";
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -40px;
+    text-decoration: underline;
+}
+
+input#pseudo {
+    background-color: whitesmoke;
+    border-radius:8px;
+}
+
+.logo_home
+{
+    position: absolute;
+    margin-top: -173px;
+}
